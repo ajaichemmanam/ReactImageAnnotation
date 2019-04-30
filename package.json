@@ -1,0 +1,108 @@
+{
+  "_from": "react-image-annotation",
+  "_id": "react-image-annotation@0.9.9",
+  "_inBundle": false,
+  "_integrity": "sha512-O25v1g4sQnuzx/0ConYJDHagpWr2R28kLfBOPJCEEaMS0RaOHMTavPxsfsVaRMICg8wwrJdqTRND+nZA7xq3vA==",
+  "_location": "/react-image-annotation",
+  "_phantomChildren": {
+    "base64-js": "1.3.0",
+    "css-to-react-native": "2.3.0",
+    "fbjs": "0.8.17",
+    "ieee754": "1.1.13",
+    "prop-types": "15.7.2",
+    "react-is": "16.8.6",
+    "stylis": "3.5.4",
+    "stylis-rule-sheet": "0.0.10"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-image-annotation",
+    "name": "react-image-annotation",
+    "escapedName": "react-image-annotation",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-image-annotation/-/react-image-annotation-0.9.9.tgz",
+  "_shasum": "8d2342d3e1cf03350f4aafe82d7e316900b1d6ba",
+  "_spec": "react-image-annotation",
+  "_where": "E:\\Tensorflow\\React\\testDash\\testdash\\src",
+  "author": {
+    "name": "Arian Allenson Valdez",
+    "email": "arianallensonv@gmail.com",
+    "url": "http://arianv.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/Secretmapper/react-image-annotation/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "mv": "^2.1.1",
+    "styled-components": "^3.1.6"
+  },
+  "deprecated": false,
+  "description": "react-image-annotation React component",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "gh-pages": "^1.1.0",
+    "nwb": "0.23.x",
+    "raw-loader": "^0.5.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-syntax-highlighter": "^7.0.0",
+    "standard": "^10.0.3"
+  },
+  "files": [
+    "css",
+    "es",
+    "lib",
+    "umd"
+  ],
+  "homepage": "https://github.com/Secretmapper/react-image-annotation#readme",
+  "keywords": [
+    "react-component"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "name": "react-image-annotation",
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "16.x",
+    "react-dom": ">=0.14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Secretmapper/react-image-annotation.git"
+  },
+  "scripts": {
+    "build": "nwb build-react-component && node buildscript",
+    "clean": "nwb clean-module && nwb clean-demo",
+    "deploy": "gh-pages -d demo/dist",
+    "start": "nwb serve-react-demo",
+    "test": "nwb test-react",
+    "test:coverage": "nwb test-react --coverage",
+    "test:watch": "nwb test-react --server"
+  },
+  "standard": {
+    "env": [
+      "jest",
+      "jasmine"
+    ],
+    "globals": [
+      "fetch",
+      "URL"
+    ],
+    "parser": "babel-eslint"
+  },
+  "version": "0.9.9"
+}
